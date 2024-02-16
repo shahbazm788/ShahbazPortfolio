@@ -15,7 +15,7 @@ const Certificates = () => {
       <p className='c_text_p'>Here You can see my Certificates </p>
 
         <div className='c_images_outer'>
-          <div className='certificates_images' data-aos='fade-down-right' data-aos-delay="400" data-aos-duration="1500" >
+          <div className='certificates_images' data-aos='fade-down' data-aos-delay="400" data-aos-duration="1500" >
               <div className='img_1' >
               <h6 className='title_h6' >Responsive Desinge Certificates</h6>
                 <div className='c_img_div' >
@@ -24,7 +24,7 @@ const Certificates = () => {
               </div>
           </div>
 
-          <div className='certificates_images' data-aos='fade-down-left' data-aos-delay="400" data-aos-duration="1500">
+          <div className='certificates_images' data-aos='fade-up' data-aos-delay="400" data-aos-duration="1500">
               <div className='img_2'>
               <h6 className='title_h6' >Js Certificate</h6>
                 <div className='c_img_div'>
@@ -34,7 +34,7 @@ const Certificates = () => {
           </div>
 
           <div className='certificates_images'>
-              <div className='img_1' data-aos='fade-down-right' data-aos-delay="400" data-aos-duration="1500">
+              <div className='img_1' data-aos='fade-down' data-aos-delay="400" data-aos-duration="1500">
               <h6 className='title_h6' >React & FrontEnd Developing Certificate</h6>
                 <div className='c_img_div'>
                   <img src={frontEnd_certificate} alt='Js Certifcate' />
@@ -42,7 +42,7 @@ const Certificates = () => {
               </div>
           </div>
 
-          <div className='certificates_images' data-aos='fade-down-left' data-aos-delay="400" data-aos-duration="1500">
+          <div className='certificates_images' data-aos='fade-up' data-aos-delay="400" data-aos-duration="1500">
               <div className='img_2'>
               <h6 className='title_h6' >BackEnd (nodeJs/expresjs) Certificate</h6>
                 <div className='c_img_div'>
@@ -51,7 +51,7 @@ const Certificates = () => {
               </div>
           </div>
           <div className='certificates_images'>
-              <div className='img_1' data-aos='fade-down-right' data-aos-delay="400" data-aos-duration="1500">
+              <div className='img_1' data-aos='fade-down' data-aos-delay="400" data-aos-duration="1500">
               <h6 className='title_h6' >WordPress Certificate</h6>
                 <div className='c_img_div'>
                   <img src={wordpressCertificate} alt='Js Certifcate' />

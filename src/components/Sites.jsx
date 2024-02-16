@@ -9,7 +9,7 @@ const Sites = () => {
     <div>
         <h1 className='sites_heading'>Portfolio Sites</h1>
         <div  className='sites_outer'>
-            <div className='site' data-aos='fade-down-right' data-aos-delay="400" data-aos-duration="1500">
+            <div className='site' data-aos='fade-down' data-aos-delay="400" data-aos-duration="1500">
             <div className='site_img'>
                     <img src={admin} />
                 </div>
