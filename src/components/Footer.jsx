@@ -1,0 +1,41 @@
+import React from 'react'
+import "../sass/footer.scss"
+import whatsapp from "./img/icons8-whatsapp-96.png";
+import fb from "./img/icons8-facebook-96.png"
+import insta from "./img/icons8-instagram-96.png"
+import linkdin from "./img/icons8-linkedin-96.png"
+import twiter from "./img/twiter x.jpeg"
+const Footer = () => {
+  return (
+    <div>
+      
+      <div className='footer_div'>
+        <hr />
+     <div className='footer_row'>
+     <div className='footer_about'>
+      <h3>Follow Or Contect Me</h3>
+      <div  className='images_div'>
+        <div className='footer_img_div' ><a href='#'><img src={fb} alt='facebook' /></a></div>
+      </div>
+      <div  className='images_div'>
+        <div className='footer_img_div'><a href='#'><img src={whatsapp} alt='whatsapp' /></a></div>
+      </div>
+      <div  className='images_div'>
+        <div className='footer_img_div'><a href='#'><img src={linkdin} alt='linkdin' /></a></div>
+      </div>
+      <div  className='images_div'>
+        <div className='footer_img_div'><a href='#'><img src={insta} alt='instagram' /></a></div>
+      </div>
+      <div  className='images_div'>
+        <div className='footer_img_div'><a href='#'><img src={twiter} alt='twiter' /></a></div>
+      </div>
+     </div>
+     </div>
+      <div className='design_outer'> Design & Develpod by <span>Mohammed Shahbaz</span> </div>
+        
+        </div>
+    </div>
+  )
+}
+
+export default Footer

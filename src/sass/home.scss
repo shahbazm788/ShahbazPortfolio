@@ -1,0 +1,31 @@
+// .home_div{
+//     min-height: 100vh;
+//     width: 100%;
+//     background-color: var(--bg-dark);
+// }
+
+.app_outer{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--bg-dark);
+    padding: 0 50px !important;
+    
+}
+
+.site_home_outer{
+    margin-top: 50px !important;
+}
+
+.certificate_outer{
+    width: 100%;
+    overflow: hidden;
+   margin-top: 80px !important;
+   background-color: var(--bg-dark);
+
+}
+
+@media screen and (max-width : 768px){
+    .app_outer{
+        padding: 0 15px !important;
+    }
+}

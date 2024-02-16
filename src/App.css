@@ -1,0 +1,21 @@
+:root{
+  
+    --bg-dark : #0B0C10;
+    --bg-gray: #1F2833; 
+    --text-color:#C5C6C7;
+    --heading-color:#66FCF1;
+    --border-color: #45A29E;
+    --shadow-color :  rgba(0, 0,0, 0.1);
+  
+  }
+
+
+*{
+    padding: 0 !important;
+    margin:  0 !important;
+    box-sizing: border-box;
+}
+body{
+  background-color: var(--bg-dark);
+  width: 100% !important;
+}
