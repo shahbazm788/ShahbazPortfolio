@@ -56,5 +56,25 @@ overflow: hidden;
 }
 
 @media screen and (max-width : 768px){
+    .site_img > img{
+        height: 300px;
+        }
+        .sites_heading {
+            font-size: 48px;
+        }
+}
 
+@media screen and (max-width : 556px){
+    .site_img > img{
+        height: 250px;
+        }
+        .sites_heading {
+            font-size: 36px;
+        }
+}
+
+@media screen and (max-width : 400px){
+    .site_img > img{
+        height: 220px;
+        }
 }
