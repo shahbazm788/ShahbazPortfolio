@@ -113,8 +113,26 @@
         min-height: 400px;
         margin: auto !important;
     }
+    .c_img_div > img {
+        height: 300px;
+    }
+    .certificate_h1 {
+        font-size: 60px !important;
+    }
  
 }
+
+@media screen and (max-width:492px){
+    .c_img_div > img {
+        height: 260px;   
+    }
+    .certificate_h1 {
+        font-size: 48px !important;
+    }  
+ 
+}
+
+
 @media screen and (min-width : 992px) {
     .img_2 {
         margin-top: 150px !important;
