@@ -10,9 +10,9 @@ const Typedtext = () => {
        2000,
         'I am SHAHBAZ, a MERN stack web Developer',
         2000,
-        'I can create beutifull and eye cathing  website for you ',
+        'I can create a beautiful and eye catching  website for you ',
         2000,
-        'If you want to hire me please conntect me ',
+        'If you want to hire me please contact me ',
         1000
       ]}
       wrapper="span"
