@@ -27,7 +27,7 @@ const Footer = () => {
         <div className='footer_img_div'><a href='https://www.instagram.com/shhbz_ywns?igsh=MTZoMDhxdG4zbWNuYw=='><img src={insta} alt='instagram' /></a></div>
       </div>
       <div  className='images_div'>
-        <div className='footer_img_div'><a href='#'><img src={twiter} alt='twiter' /></a></div>
+        <div className='footer_img_div'><a href='https://twitter.com/ShahBaz01820568'><img src={twiter} alt='twiter' /></a></div>
       </div>
      </div>
      </div>
