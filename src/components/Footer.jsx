@@ -21,7 +21,7 @@ const Footer = () => {
         <div className='footer_img_div'><a href='https://wa.me/+923408628219'><img src={whatsapp} alt='whatsapp' /></a></div>
       </div>
       <div  className='images_div'>
-        <div className='footer_img_div'><a href='https://www.linkedin.com/in/mohammad-shahbaz'><img src={linkdin} alt='linkdin' /></a></div>
+        <div className='footer_img_div'><a href='https://www.linkedin.com/in/mohammad-shahbaz-3332272b6?trk=contact-info'><img src={linkdin} alt='linkdin' /></a></div>
       </div>
       <div  className='images_div'>
         <div className='footer_img_div'><a href='https://www.instagram.com/shhbz_ywns?igsh=MTZoMDhxdG4zbWNuYw=='><img src={insta} alt='instagram' /></a></div>
